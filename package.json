@@ -1,11 +1,44 @@
 {
+  "_from": "mri.js@^1.0.0",
+  "_id": "mri.js@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-CaL2t7SgcBDzjKdU0SfBvnUcIffCjZtz+wFUItGdmGd93I4SxGpLwgoVk2kvqZOolgb/EF+tsEQzMIbcFzjJ7A==",
+  "_location": "/mri.js",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "mri.js@^1.0.0",
+    "name": "mri.js",
+    "escapedName": "mri.js",
+    "rawSpec": "^1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.0"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/mri.js/-/mri.js-1.0.0.tgz",
+  "_shasum": "600b3bafff04784dc305b0b3b2461e0e8358ea5d",
+  "_spec": "mri.js@^1.0.0",
+  "_where": "/Users/bake/go/src/git.192k.pw/bake/mangareader",
   "author": {
     "name": "bake"
   },
+  "bugs": {
+    "url": "https://github.com/bakerolls/mri.js/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "webp-hero": "0.0.0-dev.19"
+  },
+  "deprecated": false,
   "description": "Decoder for MangaRock images (.mri)",
   "devDependencies": {
     "typescript": "^3.4.2"
   },
+  "homepage": "https://github.com/bakerolls/mri.js",
   "keywords": [
     "manga",
     "mangarock",
@@ -20,15 +53,9 @@
   },
   "scripts": {
     "build": "tsc",
-    "prepublish": "npm run build"
+    "watch": "tsc --watch",
+    "prepare": "npm run build"
   },
   "types": "dist/index.d.ts",
-  "version": "1.0.0",
-  "dependencies": {
-    "webp-hero": "0.0.0-dev.19"
-  },
-  "bugs": {
-    "url": "https://github.com/bakerolls/mri.js/issues"
-  },
-  "homepage": "https://github.com/bakerolls/mri.js"
+  "version": "1.1.0"
 }

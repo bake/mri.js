@@ -1,5 +1,7 @@
 # MangaRock Image decoder
 
+[![npm version](https://img.shields.io/npm/v/mri.js.svg?style=flat)](https://www.npmjs.com/package/mri.js)
+
 `mri.js` decodes `.mri` (MangaRock Image) files. MRIs are basically XORed WEBP images without the corresponding header. This module uses [webp-hero](https://github.com/chase-moskal/webp-hero) to decode and render the resulting WEBPs.
 
 ## Installation
